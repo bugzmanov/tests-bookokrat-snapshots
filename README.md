@@ -1,4 +1,4 @@
-# bookokrat-goldens
+# tests-bookokrat-snapshots
 
 Golden screenshots for [bookokrat](https://github.com/bugzmanov/bookokrat)'s
 VHS visual regression tests (real-terminal screenshot comparisons).
@@ -10,7 +10,7 @@ delta-compress and every re-bless would bloat the main repo's history forever.
 
 Clone into the main repo's golden directory (it is gitignored there):
 
-    git clone https://github.com/bugzmanov/bookokrat-goldens vhs_tests/golden
+    git clone https://github.com/bugzmanov/tests-bookokrat-snapshots vhs_tests/golden
 
 Then run tapes as usual (`./vhs_tests/run.sh --terminal kitty`). Re-blessing
 (`--update` / `--accept`) writes new PNGs here; commit and push them from this
